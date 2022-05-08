@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+}
+
+#tach {
+    position: absolute;
+    top: 100px;
+    right: 100px;
+}
+
+#ned {
+    position: absolute;
+    top: 187px;
+    right: 191px;
+    transition: 1.5s all ease;
+    transform: rotate(232deg);
+    transform-origin: 50% 79.6%;
+}
+
+#ped {
+    position: relative;
+    right: 0;
+    transition: 1.5s all ease;
+}
+
+#ped:hover {
+    transform: rotateX(50deg);
+}
+
+#ped:hover ~ #ned {
+    transform: rotateZ(390deg);
+}

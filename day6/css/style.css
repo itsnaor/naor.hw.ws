@@ -1,0 +1,38 @@
+header {
+    height: 10vh;
+    background-color: black;
+    color: pink;
+}
+
+main {
+    height: 90vh;
+    overflow: auto;
+}
+
+section {
+
+}
+
+#profile-sec {
+    background-color: blue;
+}
+
+#info-sec {
+    min-height: 100%;
+    background-color: brown;
+    background: blue url("https://lp-cms-production.imgix.net/2019-06/8ec64b64e1d0805b1101f6c70c7f5b31-tel-aviv.jpg") fixed;
+    background-size: cover;
+    overflow: auto;
+}
+
+p{
+background-color: rgb(122, 162, 181);
+text-align: center;
+font-size: 50px;
+padding: 20px;
+margin: 50px auto;
+width: 800px;
+}
+h1{
+    text-align: center;
+}
