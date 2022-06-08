@@ -1,0 +1,109 @@
+.headDiv{
+    width: 100%;
+    height: 60px;
+    margin-top: 20px;
+    border: 2.5px rgba(130, 161, 57, 0.932) solid;
+    border-radius: 15px;
+    background-color: rgb(238, 245, 143);
+    color: rgb(121, 77, 77);
+    text-align: center;
+    font-weight: 500;
+    font-size: 2em;
+    text-shadow: 2px 2px 7px #585555;
+}
+.headDiv:hover{
+  cursor: pointer;
+}
+.mainDiv{
+  width: 100%;
+  display:inline-flex;
+}
+.gameDiv{
+    width: 1000px;
+    height: 600px;
+    margin-top: 20px;
+    border: 2.5px rgba(117, 85, 58, 0.932) solid;
+    background-color: rgb(218, 216, 216);
+    border-radius: 15px;
+}
+.boxDiv{
+    width:fit-content;
+    padding: 3px;
+    border: 2.5px rgba(218, 41, 35, 0.932) solid;
+    border-radius: 10px;
+    background-color: rgb(173, 90, 90);
+    color: rgb(218, 42, 209);
+    position: relative;  
+}
+.boxDivInGame {
+    animation: rotation infinite linear;
+    animation-duration:  2s;
+    cursor: crosshair;
+}
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+.sideDiv{
+  width: 20%;
+  height: 600px;
+  margin: 20px 0 0 36px;
+  border: 2.5px rgba(180, 55, 132, 0.932) solid;
+  background-color: rgb(175, 175, 175);
+  border-radius: 15px;
+}
+.detailesList{
+  list-style: none;
+  margin: 13px;
+  background-color: rgb(255, 145, 0);
+  color: rgb(11, 15, 5);
+  font-weight: 500;
+}
+.detailesList li{
+  padding: 5px 0 7px;
+  display: block;
+  color: rgb(60, 112, 255);
+  font-weight: bold;
+  font-size: 0.8em;
+  line-height: 1.35em;
+}
+p[class="header"]{
+  margin: 0;
+  padding-top: 5px;
+  font-size: 0.9em;
+}
+.highScorersList span{
+  display: block;
+}
+span1{
+  font-weight: normal !important;
+  font-size: 1em !important;
+}
+.dateOf{
+  visibility: visible;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 2px 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 60%;
+  left: 40%;
+  margin-left: -80px;
+}
+.tempo{
+  visibility: hidden;
+  position: absolute;
+}
+.scorer{
+  position: relative;
+}
+ul{
+  padding-left: 1rem !important;
+}
+
